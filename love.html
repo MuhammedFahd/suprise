@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="love.css">
+    </head>
+<body>
+    <div class="container">
+        <span>My</span>
+        <span class="heart" id="heart">heart</span>
+        <span>beats</span>
+        <span>for</span>
+        <span>you</span>
+      </div>
+
+</body>
+<script>
+    function heartup() {
+        let title = document.getElementById('heart')
+        title.style.fontWeight='900';
+    }
+    function heartdown() {
+        let title = document.getElementById('heart')
+        title.style.fontWeight='100';
+    }
+
+    var heartuptimer = setInterval(heartup, 200);
+    var heartdowntimer = setInterval(heartdown, 500);
+
+</script>
+</html>

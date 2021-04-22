@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,900,800,700,600,500,300,200,100);
+
+html {
+  color: White;
+}
+
+body {
+  background-image: url(Y73uqp.jpg);
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Exo 2';
+  font-weight: 100;
+  text-align: center;
+  font-size: 8em;
+}
+
+.container {
+  position: relative;
+  padding-top: 15%;
+}
+
+.heart {
+  transition: all 0.3s;
+  color: #EA4646;
+}
+
