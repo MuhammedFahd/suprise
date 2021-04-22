@@ -6,12 +6,14 @@ html {
 
 body {
   background-image: url(Y73uqp.jpg);
-  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
   font-family: 'Exo 2';
   font-weight: 100;
   text-align: center;
